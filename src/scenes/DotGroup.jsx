@@ -6,27 +6,27 @@ export default function DotGroup ({ selectedPage, setSelectedPage }) {
   return (
     <div className='flex flex-col gap-6 fixed top-[60%] right-7'>
       <AnchorLink
+        href='#home'
         className={`${selectedPage === 'home' ? selectedStyle : 'bg-grey'}
         w-3 h-3 rounded-full`}
-        href='#home'
         onClick={() => setSelectedPage('home')}
       />
       <AnchorLink
+        href='#skills'
         className={`${selectedPage === 'skills' ? selectedStyle : 'bg-grey'}
         w-3 h-3 rounded-full`}
-        href='#skills'
         onClick={() => setSelectedPage('skills')}
       />
       <AnchorLink
+        href='#projects'
         className={`${selectedPage === 'projects' ? selectedStyle : 'bg-grey'}
         w-3 h-3 rounded-full`}
-        href='#projects'
         onClick={() => setSelectedPage('projects')}
       />
       <AnchorLink
+        href='#contact'
         className={`${selectedPage === 'contact' ? selectedStyle : 'bg-grey'}
         w-3 h-3 rounded-full`}
-        href='#contact'
         onClick={() => setSelectedPage('contact')}
       />
 

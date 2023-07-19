@@ -21,7 +21,7 @@ export default function MySkills () {
     {
       id: 3,
       src: '../../public/assets/js-icon.png',
-      title: 'JS',
+      title: 'JAVASCRIPT',
       style: 'shadow-lime-400'
     },
     {
@@ -56,9 +56,9 @@ export default function MySkills () {
     },
     {
       id: 9,
-      src: '../../public/assets/express-icon.png',
-      title: 'EXPRESS',
-      style: 'shadow-white'
+      src: '../../public/assets/materialui.png',
+      title: 'MATERIALUI',
+      style: 'shadow-blue-700'
     }
   ]
 
@@ -68,6 +68,7 @@ export default function MySkills () {
       <div className='md:flex md:justify-between md:gap-16 mt-20'>
 
         <motion.div
+          // className='md:w-1/3'
           initial='hidden'
           whileInView='visible'
           viewport={{ once: true, amount: 0.5 }}
@@ -100,7 +101,7 @@ export default function MySkills () {
             visible: { opacity: 1, y: 0 }
           }}
         >
-          <div className='relative h-32 w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+          <div className='relative w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 h-full '>
 
             {
             techs.map(({ id, src, title, style }) => (

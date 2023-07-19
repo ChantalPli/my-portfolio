@@ -10,6 +10,7 @@ export default {
         grey: '#4c4c45',
         fucsia: '#FF45A4',
         'deep-green': '#045652',
+        'deep-orange': '#f2b17c',
         'dark-grey': '#2f3131',
         'green-yellow': '#D1ff3a',
         'opaque-black': 'rgba(0,0,0,0,.35)'
