@@ -780,6 +780,26 @@ video {
   width: 50%;
 }
 
+.w-\[200\]{
+  width: 200;
+}
+
+.w-\[200px\]{
+  width: 200px;
+}
+
+.w-\[150px\]{
+  width: 150px;
+}
+
+.w-\[60\%\]{
+  width: 60%;
+}
+
+.w-\[50\%\]{
+  width: 50%;
+}
+
 .max-w-\[300px\]{
   max-width: 300px;
 }

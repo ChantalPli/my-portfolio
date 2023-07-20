@@ -84,8 +84,7 @@ export default function MySkills () {
           </p>
 
           <div className='flex justify-center mt-3 mb-8'>
-            <LineGradient width='w-1/3' />
-
+            <LineGradient width='w-[150px]' />
           </div>
 
         </motion.div>

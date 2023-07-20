@@ -49,7 +49,7 @@ export default function Projects () {
             MY<span className='text-fucsia'> PROJECTS</span>
           </p>
           <div className='flex justify-center mt-3 mb-8'>
-            <LineGradient width='w-1/3' />
+            <LineGradient width='w-[150px]' />
           </div>
         </div>
 

@@ -38,7 +38,7 @@ export default function Contact () {
             CONTACT<span className='text-fucsia'> ME</span>
           </p>
           <div className='flex justify-center mb-8'>
-            <LineGradient width='w-1/2' />
+            <LineGradient width='w-[150px]' />
           </div>
         </div>
       </motion.div>
