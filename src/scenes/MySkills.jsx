@@ -65,10 +65,11 @@ export default function MySkills () {
   return (
     <section id='skills' className='pt-10 pb-24'>
       {/* HEADER SECTION  */}
-      <div className='md:flex md:justify-between md:gap-16 mt-20'>
+      <div className='md:flex md:justify-center md:gap-16 mt-20'>
 
         <motion.div
-          // className='md:w-1/3'
+          // className='flex justify-center w-full text-center'
+          className='mx-auto text-center'
           initial='hidden'
           whileInView='visible'
           viewport={{ once: true, amount: 0.5 }}
@@ -78,20 +79,24 @@ export default function MySkills () {
             visible: { opacity: 1, x: 0 }
           }}
         >
-          <p className='font-montserrat font-semibold text-4xl mb-5'>
-            MY<span className='text-fucsia'>SKILLS</span>
+          <p className='font-montserrat font-semibold text-4xl'>
+            MY<span className='text-fucsia'> SKILLS</span>
           </p>
-          <LineGradient width='w-1/3' />
+
+          <div className='flex justify-center mt-3 mb-8'>
+            <LineGradient width='w-1/3' />
+
+          </div>
 
         </motion.div>
 
       </div>
 
       {/* SKILLS */}
-      <div className='md:flex md:justify-between mt-10 gap-32'>
+      <div className='md:flex md:justify-center mt-5 gap-32'>
 
         <motion.div
-          className='md:w-5/6 mt-10'
+          className='md:w-5/6 mt-16 md:mt-0'
           initial='hidden'
           whileInView='visible'
           viewport={{ once: true, amount: 0.5 }}

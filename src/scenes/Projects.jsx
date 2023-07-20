@@ -20,7 +20,7 @@ function Project ({ title, toPage }) {
     <motion.div variants={projectVariant} className='relative'>
       <div className={overlayStyles}>
         <p className='text-2xl font-poppins'>{title}</p>
-        <a href={toPage}>See</a>
+        <a href={toPage} target='_blank' rel='noreferrer'>See</a>
       </div>
       <img src={`../../public/assets/${projectTitle}.jpg`} alt={projectTitle} />
     </motion.div>
@@ -29,11 +29,12 @@ function Project ({ title, toPage }) {
 
 export default function Projects () {
   return (
-    <section id='projects' className='pt-48 pb-48 '>
+    <section id='projects' className='pt-28 pb-48'>
       {/* HEADINGS */}
 
       <motion.div
-        className='md:w-2/4 mx-auto text-center'
+        // className='md:w-2/4 mx-auto text-center'
+        className='flex justify-center w-full mb-7'
         initial='hidden'
         whileInView='visible'
         viewport={{ once: true, amount: 0.5 }}
@@ -45,7 +46,7 @@ export default function Projects () {
       >
         <div>
           <p className='font-montserrat font-semibold text-4xl'>
-            MY<span className='text-fucsia'>PROJECTS</span>
+            MY<span className='text-fucsia'> PROJECTS</span>
           </p>
           <div className='flex justify-center mt-3 mb-8'>
             <LineGradient width='w-1/3' />
