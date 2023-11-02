@@ -66,7 +66,7 @@ export default function Projects () {
         >
           {/* ROW N.1 */}
           <Project title='Project 1' toPage='https://www.google.com' />
-          <Project title='Project 1' />
+          <Project title='Project 2' toPage='https://mern-luxury-estate-chantal.onrender.com/' />
           <Project title='Project 1' />
 
           {/* //ROW N.2 */}
