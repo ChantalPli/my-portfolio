@@ -71,8 +71,8 @@ export default function Projects () {
           <Project title='Gym app' toPage='https://gym-app-chantal-trc.netlify.app/' />
 
           {/* //ROW N.2 */}
-          <Project title='Project 1' />
-          <Project title='Project 1' />
+          <Project title='Youtube clone' toPage='https://youtube-clone-app-chantaltrc.netlify.app/' />
+          <Project title='Snake game' toPage='https://statuesque-cupcake-91ccbd.netlify.app/' />
           <Project title='Project 1' />
 
         </motion.div>
