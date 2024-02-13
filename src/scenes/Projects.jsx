@@ -12,7 +12,7 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 }
 }
 
-function Project ({ title, toPage }) {
+function Project({ title, toPage }) {
   const overlayStyles = 'absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-emerald-100  z-30 flex flex-col justify-center items-center text-center p-16 text-emerald-950'
   // const projectTitle = title.split(' ').join('-').toLowerCase()
   const projectTitle = title.split(' ').join('-').toLowerCase()
@@ -28,7 +28,7 @@ function Project ({ title, toPage }) {
   )
 }
 
-export default function Projects () {
+export default function Projects() {
   return (
     <section id='projects' className='pt-28 pb-48'>
       {/* HEADINGS */}
@@ -49,7 +49,7 @@ export default function Projects () {
           <p className='font-montserrat font-semibold text-4xl'>
             MY<span className='text-fucsia'> PROJECTS</span>
           </p>
-          <div className='flex justify-center mt-3 mb-8'>
+          <div className='flex justify-center mt-3 mb-12'>
             <LineGradient width='w-[150px]' />
           </div>
         </div>

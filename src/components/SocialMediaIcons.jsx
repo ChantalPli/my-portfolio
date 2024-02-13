@@ -1,13 +1,13 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 
-export default function SocialMediaIcons () {
+export default function SocialMediaIcons() {
   return (
     <div className='flex justify-center md:justify-start my-10 gap-7'>
 
       <a
         className='hover:opacity-50 transition duration-500 '
-        href='https://www.google.com/'
+        href='https://www.linkedin.com/in/chantal-pilia-983387237/'
         target='_blank'
         rel='noreferrer'
       >
@@ -16,7 +16,7 @@ export default function SocialMediaIcons () {
 
       <a
         className='hover:opacity-50 transition duration-500'
-        href='https://www.google.com/'
+        href='https://github.com/ChantalPli'
         target='_blank'
         rel='noreferrer'
       >
@@ -25,7 +25,7 @@ export default function SocialMediaIcons () {
 
       <a
         className='hover:opacity-50 transition duration-500'
-        href='https://www.google.com/'
+        href='mailto:chantal.trc@gmail.com'
         target='_blank'
         rel='noreferrer'
       >

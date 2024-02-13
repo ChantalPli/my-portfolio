@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import useMediaQuery from '../hooks /useMediaQuery'
 import LineGradient from '../components/LineGradient'
 
-export default function MySkills () {
+export default function MySkills() {
   const isAboveMediumScreens = useMediaQuery('(min-width:1060px)')
 
   const techs = [
@@ -65,7 +65,7 @@ export default function MySkills () {
   return (
     <section id='skills' className='pt-10 pb-24'>
       {/* HEADER SECTION  */}
-      <div className='md:flex md:justify-center md:gap-16 mt-20'>
+      <div className='md:flex md:justify-center md:gap-16'>
 
         <motion.div
           // className='flex justify-center w-full text-center'
@@ -83,7 +83,7 @@ export default function MySkills () {
             MY<span className='text-fucsia'> SKILLS</span>
           </p>
 
-          <div className='flex justify-center mt-3 mb-8'>
+          <div className='flex justify-center mt-3 mb-2'>
             <LineGradient width='w-[150px]' />
           </div>
 
@@ -92,10 +92,10 @@ export default function MySkills () {
       </div>
 
       {/* SKILLS */}
-      <div className='md:flex md:justify-center mt-5 gap-32'>
+      <div className='md:flex md:justify-center gap-32'>
 
         <motion.div
-          className='md:w-5/6 mt-16 md:mt-0'
+          className='md:w-5/6 mt-16 md:mt-0 '
           initial='hidden'
           whileInView='visible'
           viewport={{ once: true, amount: 0.5 }}
@@ -105,20 +105,21 @@ export default function MySkills () {
             visible: { opacity: 1, y: 0 }
           }}
         >
-          <div className='relative w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 h-full '>
+
+          <div className='relative w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 h-full'>
 
             {
-            techs.map(({ id, src, title, style }) => (
-              <div
-                key={id}
-                className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
-              >
-                <img src={src} alt={title} className='w-14 mx-auto' />
-                <p className='pt-4 text-xs'>{title}</p>
-              </div>
+              techs.map(({ id, src, title, style }) => (
+                <div
+                  key={id}
+                  className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+                >
+                  <img src={src} alt={title} className='w-14 mx-auto' />
+                  <p className='pt-4 text-xs'>{title}</p>
+                </div>
 
-            ))
-          }
+              ))
+            }
 
           </div>
 

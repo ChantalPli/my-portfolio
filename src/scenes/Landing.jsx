@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import SocialMediaIcons from '../components/SocialMediaIcons'
 
-export default function Landing ({ setSelectedPage }) {
+export default function Landing({ setSelectedPage }) {
   const isAboveMediumScreens = useMediaQuery('(min-width:1060px)')
 
   return (
@@ -22,18 +22,18 @@ export default function Landing ({ setSelectedPage }) {
                 src='../../public/assets/profile_picture3.jpeg'
               />
             </div>
-            )
+          )
           : (
             <img
               alt='profile'
               className='hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[300px] md:max-w-[600px]]'
               src='../../public/assets/profile_picture3.jpeg'
             />
-            )}
+          )}
       </div>
 
       {/* MAIN SECTION  */}
-      <div className='z-30 basis-2/5 mt-12 md:mt-32'>
+      <div className='z-30 basis-2/5 mt-9 '>
         {/* HEADING */}
         <motion.div
           initial='hidden'

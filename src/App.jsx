@@ -8,9 +8,9 @@ import MySkills from './scenes/MySkills'
 import Projects from './scenes/Projects'
 import Contact from './scenes/Contact'
 
-function App () {
+function App() {
   const [selectedPage, setSelectedPage] = useState('home')
-  const [isTopOfPage, setIsTopOfPage] = useState('true')
+  const [isTopOfPage, setIsTopOfPage] = useState(true)
   const isAboveMediumScreens = useMediaQuery('(min-width:1060px)')
 
   useEffect(() => {
