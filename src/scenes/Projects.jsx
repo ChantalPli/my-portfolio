@@ -23,7 +23,7 @@ function Project({ title, toPage }) {
         <p className='text-2xl font-poppins'>{title}</p>
         <a href={toPage} target='_blank' rel='noreferrer'>See</a>
       </div>
-      <img src={`../../public/assets/${projectTitle}.jpg`} alt={projectTitle} />
+      <img src={`/assets/${projectTitle}.jpg`} alt={projectTitle} />
     </motion.div>
   )
 }

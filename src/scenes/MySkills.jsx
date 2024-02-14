@@ -8,55 +8,55 @@ export default function MySkills() {
   const techs = [
     {
       id: 1,
-      src: '../../public/assets/html-icon1.png',
+      src: '/assets/html-icon1.png',
       title: 'HTML',
       style: 'shadow-orange-500'
     },
     {
       id: 2,
-      src: '../../public/assets/css-icon1.png',
+      src: '/assets/css-icon1.png',
       title: 'CSS',
       style: 'shadow-blue-500'
     },
     {
       id: 3,
-      src: '../../public/assets/js-icon.png',
+      src: '/assets/js-icon.png',
       title: 'JAVASCRIPT',
       style: 'shadow-lime-400'
     },
     {
       id: 4,
-      src: '../../public/assets/react-icon.webp',
+      src: '/assets/react-icon.webp',
       title: 'REACT',
       style: 'shadow-blue-600'
     },
     {
       id: 5,
-      src: '../../public/assets/mongodb.webp',
+      src: '/assets/mongodb.webp',
       title: 'MONGODB',
       style: 'shadow-emerald-400'
     },
     {
       id: 6,
-      src: '../../public/assets/nodejs-icon.png',
+      src: '/assets/nodejs-icon.png',
       title: 'NODEJS',
       style: 'shadow-orange-300'
     },
     {
       id: 7,
-      src: '../../public/assets/bootstrap-icon.png',
+      src: '/assets/bootstrap-icon.png',
       title: 'BOOTSTRAP',
       style: 'shadow-purple-500'
     },
     {
       id: 8,
-      src: '../../public/assets/tailwind-icon.webp',
+      src: '/assets/tailwind-icon.webp',
       title: 'TAILWIND',
       style: 'shadow-blue-200'
     },
     {
       id: 9,
-      src: '../../public/assets/materialui.png',
+      src: '/assets/materialui.png',
       title: 'MATERIALUI',
       style: 'shadow-blue-700'
     }
