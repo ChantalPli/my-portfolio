@@ -2,7 +2,7 @@ import { useState } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import useMediaQuery from '../hooks /useMediaQuery'
 
-function Link ({ page, selectedPage, setSelectedPage }) {
+function Link({ page, selectedPage, setSelectedPage }) {
   const lowerCasePage = page.toLowerCase()
 
   return (
@@ -17,7 +17,7 @@ function Link ({ page, selectedPage, setSelectedPage }) {
   )
 }
 
-export default function Navbar ({ isTopOfPage, selectedPage, setSelectedPage }) {
+export default function Navbar({ isTopOfPage, selectedPage, setSelectedPage }) {
   const [isMenuToggled, setIsMenuToggled] = useState(false)
   const isAboveSmallScreens = useMediaQuery('(min-width:768px)')
   const navbarBackground = isTopOfPage ? '' : 'bg-green'
@@ -52,15 +52,15 @@ export default function Navbar ({ isTopOfPage, selectedPage, setSelectedPage }) 
                 setSelectedPage={setSelectedPage}
               />
             </div>
-            )
+          )
           : (
             <button
               className='rounded-full bg-pink-600 p-2'
               onClick={() => setIsMenuToggled(!isMenuToggled)}
             >
-              <img alt='menu-i' src='../../public/assets/menu-icon.svg' />
+              <img alt='menu-i' src='/assets/menu-icon.svg' />
             </button>
-            )}
+          )}
 
         {/* MOBILE MENU POPUP */}
         {!isAboveSmallScreens && isMenuToggled && (
@@ -68,7 +68,7 @@ export default function Navbar ({ isTopOfPage, selectedPage, setSelectedPage }) 
             {/* CLOSE ICON */}
             <div className='flex justify-endp-12'>
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
-                <img alt='close-i' src='../../public/assets/close-icon.svg' className='mx-8 mt-8' />
+                <img alt='close-i' src='/assets/close-icon.svg' className='mx-8 mt-8' />
               </button>
             </div>
 

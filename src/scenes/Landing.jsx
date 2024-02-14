@@ -19,7 +19,7 @@ export default function Landing({ setSelectedPage }) {
               <img
                 alt='profile'
                 className='hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[300px] md:max-w-[600px]]'
-                src='../../public/assets/profile_picture3.jpeg'
+                src='/assets/profile_picture3.jpeg'
               />
             </div>
           )
@@ -27,7 +27,7 @@ export default function Landing({ setSelectedPage }) {
             <img
               alt='profile'
               className='hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[300px] md:max-w-[600px]]'
-              src='../../public/assets/profile_picture3.jpeg'
+              src='/assets/profile_picture3.jpeg'
             />
           )}
       </div>
