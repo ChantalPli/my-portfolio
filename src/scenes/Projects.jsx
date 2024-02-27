@@ -73,7 +73,7 @@ export default function Projects() {
           {/* //ROW N.2 */}
           <Project title='Youtube clone' toPage='https://youtube-clone-app-chantaltrc.netlify.app/' />
           <Project title='Snake game' toPage='https://statuesque-cupcake-91ccbd.netlify.app/' />
-          <Project title='Geography quiz' toPage='https://stellar-sundae-0a2f98.netlify.app/' />
+          {/* <Project title='Geography quiz' toPage='https://stellar-sundae-0a2f98.netlify.app/' /> */}
 
         </motion.div>
       </div>
