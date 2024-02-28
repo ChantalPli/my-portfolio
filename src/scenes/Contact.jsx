@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import LineGradient from '../components/LineGradient'
 import SocialMediaIcons from '../components/SocialMediaIcons'
 
-export default function Contact () {
+export default function Contact() {
   const {
     register,
     trigger,
@@ -73,7 +73,7 @@ export default function Contact () {
           <form target='_blank' onSubmit={onSubmit} action='https://formsubmit.co/c69b1729edd22953ba1a27284c8dff1f' method='POST'>
 
             <input
-              className='w-full bg-emerald-200  text-blue-700 font-semibold placeholder:bg-opaque-black p-3'
+              className='w-full bg-slate-100  text-blue-700 font-semibold placeholder:bg-opaque-black p-3'
               type='text'
               placeholder='NAME'
               {...register('name', {
@@ -89,7 +89,7 @@ export default function Contact () {
             )}
 
             <input
-              className='w-full bg-emerald-200 text-blue-700 font-semibold placeholder:bg-opaque-black p-3 mt-5'
+              className='w-full bg-slate-100 text-blue-700 font-semibold placeholder:bg-opaque-black p-3 mt-5'
               type='text'
               placeholder='EMAIL'
               {...register('email', {
@@ -105,7 +105,7 @@ export default function Contact () {
             )}
 
             <textarea
-              className='w-full bg-emerald-200  text-blue-700 font-semibold placeholder:bg-opaque-black p-3 mt-5'
+              className='w-full bg-slate-100  text-blue-700 font-semibold placeholder:bg-opaque-black p-3 mt-5'
               type='message'
               placeholder='MESSAGE'
               rows='4'
