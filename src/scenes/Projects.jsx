@@ -16,6 +16,7 @@ function Project({ title, toPage }) {
   const overlayStyles = 'absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-emerald-100  z-30 flex flex-col justify-center items-center text-center p-16 text-emerald-950'
   // const projectTitle = title.split(' ').join('-').toLowerCase()
   const projectTitle = title.split(' ').join('-').toLowerCase()
+  // const projectTitle = title.split(' ').join('-').toLowerCase()
 
   return (
     <motion.div variants={projectVariant} className='relative'>
@@ -66,14 +67,14 @@ export default function Projects() {
           variants={container}
         >
           {/* ROW N.1 */}
-          <Project title='Music app' toPage='https://music-app-project-pilia.netlify.app/' />
+          <Project title='EatOn delivery' toPage='https://foodordering-frontend.onrender.com/' />
           <Project title='Luxury estate' toPage='https://mern-luxury-estate-chantal.onrender.com/' />
           <Project title='Gym app' toPage='https://gym-app-chantal-trc.netlify.app/' />
 
           {/* //ROW N.2 */}
           <Project title='Youtube clone' toPage='https://youtube-clone-app-chantaltrc.netlify.app/' />
           <Project title='Snake game' toPage='https://statuesque-cupcake-91ccbd.netlify.app/' />
-          {/* <Project title='Geography quiz' toPage='https://stellar-sundae-0a2f98.netlify.app/' /> */}
+          <Project title='Music app' toPage='https://music-app-project-pilia.netlify.app/' />
 
         </motion.div>
       </div>
